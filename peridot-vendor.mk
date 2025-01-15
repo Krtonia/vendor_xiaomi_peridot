@@ -832,6 +832,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/lib64/hw/fingerprint.jiiov.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.jiiov.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libAncHumanVideoBokehV4.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncHumanVideoBokehV4.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libMiDispDevManager.so:$(TARGET_COPY_OUT_ODM)/lib64/libMiDispDevManager.so \
+    vendor/xiaomi/peridot/proprietary/odm/lib64/libMiStereoFactoryCalibAnalyzeBin_qual.so:$(TARGET_COPY_OUT_ODM)/lib64/libMiStereoFactoryCalibAnalyzeBin_qual.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libTrueSight.so:$(TARGET_COPY_OUT_ODM)/lib64/libTrueSight.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libadaptivehdr.so:$(TARGET_COPY_OUT_ODM)/lib64/libadaptivehdr.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libanc_edof_checker.so:$(TARGET_COPY_OUT_ODM)/lib64/libanc_edof_checker.so \
@@ -871,6 +872,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libmiBrightness.so:$(TARGET_COPY_OUT_ODM)/lib64/libmiBrightness.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libmiClstc.so:$(TARGET_COPY_OUT_ODM)/lib64/libmiClstc.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libmiSensorCtrl.so:$(TARGET_COPY_OUT_ODM)/lib64/libmiSensorCtrl.so \
+    vendor/xiaomi/peridot/proprietary/odm/lib64/libmiStereoCalibLib_qual.so:$(TARGET_COPY_OUT_ODM)/lib64/libmiStereoCalibLib_qual.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libmiXmlParser.so:$(TARGET_COPY_OUT_ODM)/lib64/libmiXmlParser.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libmi_dspp.so:$(TARGET_COPY_OUT_ODM)/lib64/libmi_dspp.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libmiai_deblur.so:$(TARGET_COPY_OUT_ODM)/lib64/libmiai_deblur.so \
@@ -2669,6 +2671,7 @@ PRODUCT_PACKAGES += \
     QFingerprintService \
     TimeService \
     uimgbaservice \
+    AtFwd2 \
     ImsRcsService \
     PowerOffAlarm \
     QesdkSysService \
