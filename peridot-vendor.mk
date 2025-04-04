@@ -1949,6 +1949,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/firmware/gen71100_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/gen71100_sqe.fw \
     vendor/xiaomi/peridot/proprietary/vendor/firmware/gmu_gen70900.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gmu_gen70900.bin \
     vendor/xiaomi/peridot/proprietary/vendor/firmware/qps615_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/qps615_fw.bin \
+    vendor/xiaomi/peridot/proprietary/vendor/firmware/goodix_cfg_group.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_cfg_group.cfg \
     vendor/xiaomi/peridot/proprietary/vendor/gpu/kbc/sequence_manifest.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/sequence_manifest.bin \
     vendor/xiaomi/peridot/proprietary/vendor/gpu/kbc/unified_kbcs_32.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_32.bin \
     vendor/xiaomi/peridot/proprietary/vendor/gpu/kbc/unified_kbcs_64.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_64.bin \
