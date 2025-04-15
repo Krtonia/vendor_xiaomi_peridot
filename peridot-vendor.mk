@@ -33,10 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio/misound_res_spk_power_video_powersave.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/misound_res_spk_power_video_powersave.bin \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio/misoundsa_spk_config.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/misoundsa_spk_config.bin \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio/sku_cliffs/adsp_sleep_monitor.conf:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_cliffs/adsp_sleep_monitor.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/audio/sku_cliffs/foursemi/mixer_paths_cliffs_mtp.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_cliffs/foursemi/mixer_paths_cliffs_mtp.xml \
-    vendor/xiaomi/peridot/proprietary/odm/etc/audio/sku_cliffs/foursemi/mixer_paths_overlay_dynamic.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_cliffs/foursemi/mixer_paths_overlay_dynamic.xml \
-    vendor/xiaomi/peridot/proprietary/odm/etc/audio/sku_cliffs/foursemi/mixer_paths_overlay_static.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_cliffs/foursemi/mixer_paths_overlay_static.xml \
-    vendor/xiaomi/peridot/proprietary/odm/etc/audio/sku_cliffs/foursemi/resourcemanager_cliffs_mtp.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_cliffs/foursemi/resourcemanager_cliffs_mtp.xml \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio/sku_cliffs/mixer_paths_cliffs_mtp.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_cliffs/mixer_paths_cliffs_mtp.xml \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio/sku_cliffs/mixer_paths_overlay_dynamic.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_cliffs/mixer_paths_overlay_dynamic.xml \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio/sku_cliffs/resourcemanager_cliffs_mtp.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_cliffs/resourcemanager_cliffs_mtp.xml \
