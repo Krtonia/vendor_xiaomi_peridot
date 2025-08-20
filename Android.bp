@@ -40692,6 +40692,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/xtra-daemon",
             ],
             shared_libs: [
+                "libbinder_shim",
                 "libutils",
                 "libcutils",
                 "libcrypto",
