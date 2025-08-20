@@ -8994,6 +8994,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libqcc_sdk.so",
             ],
             shared_libs: [
+                "libbinder_shim",
                 "libcutils",
                 "liblog",
                 "libutils",
