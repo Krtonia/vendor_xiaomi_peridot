@@ -1178,7 +1178,6 @@ PRODUCT_PACKAGES += \
     libconfigdb \
     libcpion \
     libcv_common \
-    libdapparamstorage \
     libdataitems \
     libdfintf \
     libdiag \
