@@ -1453,7 +1453,6 @@ PRODUCT_PACKAGES += \
     libsnsdiaglog \
     libsnsutils \
     libsoc_helper \
-    libspatializerparamstorage \
     libspcom \
     libspl \
     libsplh \
